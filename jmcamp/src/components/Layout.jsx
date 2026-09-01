@@ -39,6 +39,12 @@ const navigation = [
     label: "Mata-mata",
     icon: Shield,
   },
+  {
+    to: "/ranking-x1",
+    label: "Ranking X1",
+    icon: Medal,
+  },
+  
 ];
 
 function Logo() {

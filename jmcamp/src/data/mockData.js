@@ -114,3 +114,10 @@ export const matches = [
     time: "20:30",
   },
 ];
+// src/data/mockData.js
+export const rankingX1Data = [
+  { id: 1, jogador: "João", time: "Flamengo", jogos: 25, vitorias: 18, empates: 4, derrotas: 3, gp: 52, gc: 20 },
+  { id: 2, jogador: "Marcos", time: "Vasco", jogos: 20, vitorias: 12, empates: 3, derrotas: 5, gp: 38, gc: 22 },
+  { id: 3, jogador: "Lucas", time: "São Paulo", jogos: 22, vitorias: 10, empates: 6, derrotas: 6, gp: 30, gc: 28 },
+  { id: 4, jogador: "Pedro", time: "Palmeiras", jogos: 15, vitorias: 5, empates: 2, derrotas: 8, gp: 15, gc: 25 },
+];

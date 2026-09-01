@@ -1,0 +1,93 @@
+/* src/pages/RankingX1.css */
+.ranking-x1-container {
+    padding: 2rem;
+    color: #ffffff;
+}
+
+.page-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-header p {
+    color: #a0a0b0;
+    margin-bottom: 2rem;
+}
+
+.table-wrapper {
+    background-color: #12141f;
+    /* Fundo escuro das caixas do seu print */
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #232635;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #0b0d14;
+    color: #5d637a;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 0.85rem;
+}
+
+.custom-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #1a1d29;
+    color: #d1d5db;
+}
+
+.custom-table tr:last-child td {
+    border-bottom: none;
+}
+
+.custom-table tr:hover {
+    background-color: #1a1d29;
+}
+
+.player-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.player-info strong {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.player-info span {
+    font-size: 0.8rem;
+    color: #7a829e;
+}
+
+.position {
+    font-weight: bold;
+    color: #3b82f6;
+    /* Azul de destaque do seu tema */
+}
+
+.points {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.win {
+    color: #10b981;
+}
+
+/* Verde para vitórias */
+.loss {
+    color: #ef4444;
+}
+
+/* Vermelho para derrotas */
+.rate {
+    color: #8b5cf6;
+    font-weight: bold;
+}
